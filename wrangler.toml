@@ -1,0 +1,13 @@
+name = "foodiet"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-10-01"
+
+[vars]
+TIME_ZONE = "Asia/Tokyo"
+
+# `wrangler d1 create foodiet` で作成し、表示された database_id に置き換える
+[[d1_databases]]
+binding = "DB"
+database_name = "foodiet"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"

@@ -1,0 +1,3 @@
+# ローカル開発用。.dev.vars にコピーして使う
+AUTH_MODE=none
+API_TOKEN=local-dev-token
